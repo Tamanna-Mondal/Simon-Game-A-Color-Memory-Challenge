@@ -29,7 +29,7 @@ A simple implementation of the classic Simon Game using JavaScript, HTML, and CS
 - CSS
 - JavaScript
 
-## Getting Started
+# Getting Started
 
 1. **Clone the repository**:
    ```bash
