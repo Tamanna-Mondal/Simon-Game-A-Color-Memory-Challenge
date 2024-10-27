@@ -52,10 +52,10 @@ function checkBtn(idx){
 
         }
     }else{
-        h3.innerHTML=`Game Over : Your score was <b>${level*10}</b> <br> Press any key for start the game again `;
+        h3.innerHTML=`Game Over : Your score was <b>${level*2}</b> <br> Press any key for start the game again `;
           levels =`${level}`;
           if(level > hightest){
-            hightest=level;
+            hightest=`${level*2}`;
             console.log(hightest);
           }
         document.querySelector('body').style.background="red";
