@@ -8,6 +8,9 @@ Simon Game is a fun and interactive memory game where players must memorize and 
 - **Memory Challenge**: Test and improve your memory as the game progresses.
 - **Responsive Design**: The game is designed to be played on various devices.
 
+## Demo
+https://tamanna-mondal.github.io/Simon-Game-A-Color-Memory-Challenge/ 
+
 ## How to Play
 1. Press any key to start the game.
 2. The game will show a sequence of colors.
