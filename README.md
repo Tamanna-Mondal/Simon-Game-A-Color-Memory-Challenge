@@ -14,7 +14,7 @@ A simple implementation of the classic Simon Game using JavaScript, HTML, and CS
 
 ## Demo
 
-[Include a link to a live demo or GIF of your game in action]
+https://tamanna-mondal.github.io/Simon-Game-A-Color-Memory-Challenge/
 
 ## Features
 
@@ -32,5 +32,5 @@ A simple implementation of the classic Simon Game using JavaScript, HTML, and CS
 # Getting Started
 
 1. **Clone the repository**:
-   ```bash
+  
    git clone https://github.com/your-username/simon-game.git
