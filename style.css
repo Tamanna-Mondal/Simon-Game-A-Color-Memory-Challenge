@@ -1,50 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    background: linear-gradient(135deg, rgba(255, 204, 204, 0.9), rgba(100, 149, 237, 0.8)); 
+    color:rgba(17, 19, 22, 0.8); 
+    font-family: 'Arial', sans-serif; 
 
-.box{
-    
+}
+
+.box {
     height: 8rem;
     width: 8rem;
     background-color: aqua;
     border: 4px solid black;
-   text-align: center;
+    text-align: center;
     border-radius: 1rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.2s, box-shadow 0.2s; 
 }
 
-.name{
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4); 
+}
+
+.name {
     width: 22rem;
     text-align: center;
+    margin-top: 1rem; 
 }
 
-.main{
+.main {
     height: 22rem;
     width: 22rem;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-     
-
 }
-h2{
+
+h2 {
     color: red;
     margin-left: 35px;
-}
-.red{
-    background-color: rgb(180, 62, 102);
-}
-.green {
-    background-color: #63aac0;
-}
-.orange{
-    background-color: orange;
-}
-.blue{
-    background-color: rgb(137, 137, 219);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-.flash{
+.red {
+    background-color: rgb(180, 62, 102);
+    transition: background-color 0.3s; 
+}
+
+.green {
+    background-color: #63aac0;
+    transition: background-color 0.3s; 
+}
+
+.orange {
+    background-color: orange;
+    transition: background-color 0.3s; 
+}
+
+.blue {
+    background-color: rgb(137, 137, 219);
+    transition: background-color 0.3s; 
+}
+
+.flash {
     background-color: aliceblue;
 }
-.urflash{
+
+.urflash {
     background-color: green;
 }
+
+ /* Game Over part ...> */
+.game-over {
+    background-color: #ff4757 !important; 
+}
+
+
 
